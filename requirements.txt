@@ -1,0 +1,7 @@
+fastapi
+openai
+pinecone
+python-dotenv
+pyyaml
+httpx
+redis

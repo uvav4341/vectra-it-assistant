@@ -1,0 +1,55 @@
+{
+  "kb_version": "6f17bb80f92f",
+  "ingested_at": "2026-10-27T06:00:29+00:00",
+  "index": "vectra-kb",
+  "embed_model": "text-embedding-3-small",
+  "ingested": [
+    {
+      "doc_id": "KB-001",
+      "title": "Password reset and account lockout",
+      "effective_date": "2025-06-01"
+    },
+    {
+      "doc_id": "KB-003",
+      "title": "Ticket priority definitions and SLA",
+      "effective_date": "2025-09-01"
+    },
+    {
+      "doc_id": "KB-004",
+      "title": "Email on mobile and mailbox issues",
+      "effective_date": "2025-03-15"
+    },
+    {
+      "doc_id": "KB-005",
+      "title": "Warehouse handheld scanners and label printers",
+      "effective_date": "2025-11-01"
+    },
+    {
+      "doc_id": "KB-006",
+      "title": "Phishing and security incidents",
+      "effective_date": "2026-01-10"
+    },
+    {
+      "doc_id": "KB-007",
+      "title": "Connecting to VPN with ZenTunnel",
+      "effective_date": "2026-04-01"
+    },
+    {
+      "doc_id": "KB-008",
+      "title": "Software installation requests and licences",
+      "effective_date": "2025-07-01"
+    }
+  ],
+  "skipped": [
+    {
+      "doc_id": "KB-002",
+      "status": "deprecated",
+      "reason": "deprecated, superseded by KB-007"
+    },
+    {
+      "doc_id": "KB-099",
+      "status": "unverified",
+      "reason": "status 'unverified' (not reviewed by IT); contains instructions aimed at AI assistants (prompt injection)"
+    }
+  ]
+}
